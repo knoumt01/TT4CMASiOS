@@ -13,6 +13,8 @@
 		4435DE811AD6D8A50016FE36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4435DE801AD6D8A50016FE36 /* Images.xcassets */; };
 		4435DE841AD6D8A50016FE36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4435DE821AD6D8A50016FE36 /* LaunchScreen.xib */; };
 		4435DE901AD6D8A50016FE36 /* Testing_Tortuga_for_CMAsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435DE8F1AD6D8A50016FE36 /* Testing_Tortuga_for_CMAsTests.swift */; };
+		4435DE9A1AD6D8D10016FE36 /* index.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4435DE991AD6D8D10016FE36 /* index.jpg */; };
+		4435DE9C1AD6D9250016FE36 /* index.png in Resources */ = {isa = PBXBuildFile; fileRef = 4435DE9B1AD6D9250016FE36 /* index.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		4435DE891AD6D8A50016FE36 /* Testing Tortuga for CMAsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Testing Tortuga for CMAsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4435DE8E1AD6D8A50016FE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4435DE8F1AD6D8A50016FE36 /* Testing_Tortuga_for_CMAsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing_Tortuga_for_CMAsTests.swift; sourceTree = "<group>"; };
+		4435DE991AD6D8D10016FE36 /* index.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = index.jpg; sourceTree = "<group>"; };
+		4435DE9B1AD6D9250016FE36 /* index.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = index.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		4435DE771AD6D8A50016FE36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4435DE9B1AD6D9250016FE36 /* index.png */,
+				4435DE991AD6D8D10016FE36 /* index.jpg */,
 				4435DE781AD6D8A50016FE36 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4435DE9A1AD6D8D10016FE36 /* index.jpg in Resources */,
+				4435DE9C1AD6D9250016FE36 /* index.png in Resources */,
 				4435DE7F1AD6D8A50016FE36 /* Main.storyboard in Resources */,
 				4435DE841AD6D8A50016FE36 /* LaunchScreen.xib in Resources */,
 				4435DE811AD6D8A50016FE36 /* Images.xcassets in Resources */,

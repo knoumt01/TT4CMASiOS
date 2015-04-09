@@ -10,16 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBAction func buttonStartPressed(sender:UIButton) {
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func buttonNotesPressed(sender:UIButton) {
+        
     }
-
-
+    
+    @IBAction func buttonExitPressed(sender:UIButton) {
+        
+    }
 }
 
