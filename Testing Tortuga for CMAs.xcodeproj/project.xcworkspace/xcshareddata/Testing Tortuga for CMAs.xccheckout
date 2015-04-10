@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F89F058B-5D67-4FB8-A351-29491FD0774F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Testing Tortuga for CMAs</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>403DB60DA32BB04E45192B04B7DA061401682EAE</key>
+		<string>https://github.com/knoumt01/TT4CMASiOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Testing Tortuga for CMAs.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>403DB60DA32BB04E45192B04B7DA061401682EAE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/knoumt01/TT4CMASiOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>403DB60DA32BB04E45192B04B7DA061401682EAE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>403DB60DA32BB04E45192B04B7DA061401682EAE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Testing%20Tortuga%20for%20CMAs</string>
+		</dict>
+	</array>
+</dict>
+</plist>

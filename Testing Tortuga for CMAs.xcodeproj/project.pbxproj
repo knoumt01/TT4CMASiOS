@@ -415,6 +415,7 @@
 				4435DE951AD6D8A50016FE36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4435DE961AD6D8A50016FE36 /* Build configuration list for PBXNativeTarget "Testing Tortuga for CMAsTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +424,7 @@
 				4435DE981AD6D8A50016FE36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
