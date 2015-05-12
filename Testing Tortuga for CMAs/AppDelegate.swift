@@ -40,7 +40,39 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
+    func loadAllQs() {
+        var questionNumber = [Int] ()
+        var question = [String] ()
+        var answerA = [String] ()
+        var answerB = [String] ()
+        var answerC = [String] ()
+        var answerD = [String] ()
+        var answerE = [String] ()
+        var correctAnswer = [Character] ()
+        
+        var nOfLines = 10;
+        
+        let filename = "questions.txt"
+        
+        if let loadedData = File.open(filename) {
+            for var a = 0; a < nOfLines; a++ {
+                
+            }
+        }
+        else {
+            println("Error reading file - error #001") // ERROR #001 - FILE READ ERROR
+        }
+    }
 }
 
+class File {
+    class func open (path: String, utf8: NSStringEncoding = NSUTF8StringEncoding) -> String? {
+        var error: NSError?
+        return NSFileManager().fileExistsAtPath(path) ? String(contentsOfFile: path, encoding: utf8, error: &error)! : nil
+    }
+    class func save (path: String, _ content: String, utf8: NSStringEncoding = NSUTF8StringEncoding) -> Bool {
+        var error: NSError?
+        return content.writeToFile(path, atomically: true, encoding: utf8, error: &error)
+    }
+}
